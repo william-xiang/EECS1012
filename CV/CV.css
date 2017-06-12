@@ -1,0 +1,59 @@
+body
+{
+  font-family: sans-serif;
+  margin-left:20%;
+  margin-right:20%;
+}
+
+#table1
+{
+  width:100%;
+}
+
+#table2
+{
+  width:100%;
+  align:center;
+  border:1px solid black;
+}
+
+table#table2 th, table#table2 td
+{
+  border:1px solid;
+}
+
+h1
+{
+  color: blue;
+}
+
+.address{
+  font-style:italic;
+}
+
+#contact
+{
+  font-weight: bold;
+}
+
+#picture
+{
+  width: 100px;
+}
+
+h2
+{
+  margin-top: 4%;
+  text-align: center;
+  background-color: gray;
+  font-variant:small-caps;
+  letter-spacing: 4px;
+  color: purple;
+}
+
+#now
+{
+  font-size: x-small;
+  color:green;
+  font-weight:bold;
+}

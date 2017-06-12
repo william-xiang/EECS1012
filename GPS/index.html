@@ -1,0 +1,37 @@
+<html>
+<head>
+  <link href="gps.css" rel="stylesheet" type="text/css" />
+  <script type="text/javascript" src="gps.js"></script>
+</head>
+
+<body>
+  <h1>Geocaching</h1>
+
+  <div id="map">
+    <img src="map.png" alt="Map" />
+    <div id="target">
+      <img src="target.png" alt="target" />
+    </div>
+    <div id="me">
+      <img src="me.png" alt="me" />
+    </div>
+  </div>
+
+  <p>
+    <button id="togglegps" onclick="togglegps()">Start GPS</button>
+    Lattitude <span id="latitude"> ???? </span>
+    Longitude <span id="longitude"> ???? </span>
+    Now <span id="now"> ???? </span>
+  </p>
+
+  <p>
+    <button id="caches" onclick="updateCache();">Next Cache</button>
+    Location: <span id="cache"> ???? </span>
+  </p>
+
+  <p>
+    <div id="debug"> debug </div>
+  </p>
+
+</body>
+</html>

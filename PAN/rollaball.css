@@ -1,0 +1,45 @@
+body {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    outline: 0;
+}
+
+#screen{
+    background-color: yellow;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+#ball{
+    position: absolute;
+    top:100px;
+    left:1px;
+    z-index: 2;
+}
+
+#ball img{
+  width: 30px;
+  height: 30px;
+}
+
+#center{
+    position:absolute;
+    left:0px;
+    top:0px;
+    z-index:1;
+}
+
+#center img{
+  width: 50px;
+  height: 50px;
+}
+
+#text{
+    position: absolute;
+    top:0px;
+    left:0px;
+    z-index: 1000;
+    color: black;
+}

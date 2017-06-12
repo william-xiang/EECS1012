@@ -1,0 +1,28 @@
+#map{
+  position: relative;
+}
+
+
+#map img{
+  width: 100%;
+}
+
+#target{
+  position: absolute;
+  left: 92%;
+  top: 4%;
+}
+
+#target img{
+  width: 15px;
+}
+
+#me{
+  position: absolute;
+  left: 8%;
+  top: 10%;
+}
+
+#me img{
+  width: 15px;
+}
